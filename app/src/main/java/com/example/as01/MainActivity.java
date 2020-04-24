@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public void show(View view) {
 
         findViews();
-
+//kkgjkjg
         double w_value = Double.parseDouble(w.getText().toString());
         double h_value = Double.parseDouble(h.getText().toString());
         double bmi = w_value / (h_value / 100.0 * h_value / 100.0);
