@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         double bmi = w_value / (h_value / 100.0 * h_value / 100.0);
 //COMMIT Testing 2
         DecimalFormat df = new DecimalFormat("#.##");
-
+// why aren't your upload?
         TextView b = findViewById(R.id.tv_showbmi);
 
         String msg;
