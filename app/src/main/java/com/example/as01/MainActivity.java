@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         double w_value = Double.parseDouble(w.getText().toString());
         double h_value = Double.parseDouble(h.getText().toString());
         double bmi = w_value / (h_value / 100.0 * h_value / 100.0);
-//COMMIT Testing 2
         DecimalFormat df = new DecimalFormat("#.##");
 
         TextView b = findViewById(R.id.tv_showbmi);
